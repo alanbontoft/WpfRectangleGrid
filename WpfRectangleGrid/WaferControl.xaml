@@ -21,8 +21,8 @@
             </ItemsControl.ItemsPanel>
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Rectangle Width="16" Height="16" Fill="{Binding IsValid,
-                               Converter={StaticResource colorconverter}}" Margin="1"
+                    <Rectangle Margin="1" Fill="{Binding IsValid,
+                               Converter={StaticResource colorconverter}}" 
                                Visibility="{Binding IsVisible,
                                Converter={StaticResource boolconverter}}"  />
                 </DataTemplate>

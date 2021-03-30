@@ -64,13 +64,13 @@ namespace WpfRectangleGrid.ViewModels
                 {
                     case 0:
                     case 19:
-                        min = 9;
-                        max = 10;
+                        min = 8;
+                        max = 11;
                         break;
                     case 1:
                     case 18:
-                        min = 7;
-                        max = 12;
+                        min = 6;
+                        max = 13;
                         break;
                     case 2:
                     case 17:
